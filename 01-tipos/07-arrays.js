@@ -33,3 +33,5 @@ console.log(typeof animales);
 
 //Imprimir el largo o cantidad de elementos del array
 console.log(animales.length);
+
+let edad=parseInt(prompt("Escribe tu edad"))
