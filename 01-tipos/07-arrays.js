@@ -10,14 +10,23 @@
 
 let animales=['caballos', 'perros', 2];
 
-//Imprimir todo el array
+
+//                                            IMPRIMIR ARRAYS
+
+//1. Todo el array
 console.log(animales);
 
-//Para imprimir un solo valor pondremos su index dentro de [ ]
+//2. Un solo valor pondremos su index dentro de [ ]
 console.log(animales[0]);
 
-//Modificar un valor del array
-animales[2]='gatos';
+//3. El largo o cantidad de elementos del array
+console.log(animales.length);
+
+//4. El tipo de dato que imprimira sera objeto, aunque sea un array.
+console.log(typeof animales);
+
+//5. Array en forma de tabla
+console.table(animales)
 
 
 /*
@@ -28,10 +37,25 @@ animales[2]='gatos';
 animales[10]='peces';
 console.log(animales[7]); //undefined
 
-//El tipo de dato que imprimira sera objeto, aunque sea un array.
-console.log(typeof animales);
 
-//Imprimir el largo o cantidad de elementos del array
-console.log(animales.length);
+//                                        MODIFICAR ARRAYS
 
-let edad=parseInt(prompt("Escribe tu edad"))
+//1. Modificar un valor del array
+animales[2]='gatos';
+
+//2. Eliminar el ultimo elemento
+animales.pop()
+
+//3. 
+
+
+
+
+/*                                                                          EJERCICIO PRACTICO
+    Crear un array, imprimirlo en presentación de tabla.
+    Preguntar al usuario si desea añadir o eliminar un elemento por medio de --prompt--
+    lf
+    
+*/
+
+
